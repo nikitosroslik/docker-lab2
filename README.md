@@ -3,6 +3,7 @@
 ## Контрольные вопросы
 
 **1. Как в Compose передать строку подключения к БД?**
+
 Через переменную окружения в секции environment:
 
 environment:
@@ -14,6 +15,7 @@ environment:
 
 
 **3. Как выполнить команду внутри контейнера (docker exec)?**
+
 docker exec -it <имя_контейнера> <команда>
 Пример — зайти в bash контейнера с API:
 docker exec -it dotnetcompose-api-1 bash
